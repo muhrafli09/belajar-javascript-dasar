@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Array</title>
+</head>
+<body>
+<script>
+
+    const names = [];
+    names.push("Muhammad", "Rafli");
+    names.push("Rizal", "Budi", "Manto");
+
+    console.table(names);
+    console.info(names[0]);
+    
+
+    names[0] = "Programmer";
+
+    console.table(names);
+
+    delete names[1];
+    console.table(names);
+
+    names[1] = "Rafli lagi";
+    console.table(names);
+</script>
+</body>
+</html>
